@@ -15,7 +15,23 @@ Process of listing all the resources in an AWS account
          git clone "URL"
   9. execute the code
       
-         ./Script,sh
+         ./Script.sh ap-south-1 ec2
   11. As per the code "AWS CLI is not installed. Please install the AWS CLI and try again.
 " - Error received.
-    - 
+      Steps to install AWS CLI - Google "AWS CLI Commands" -> User guide -> Get started -> Linux -> copy the code to install -> Install unzip if not installed (sudo apt install unzip)
+      
+    curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+    unzip awscliv2.zip
+    sudo ./aws/install
+  12. Error Received - AWS CLI is not configured. Please configure the AWS CLI and try again.
+
+      go to aws account -> Profile -> secuirity credential -> create acces key -> Execute - aws configure -> enter access key details -> then execute the script
+
+    ./Script.sh ap-south-1 ec2 
+  13. That's how the execution happened succesfully as per the requirement.
+  14. we can check everthing with the inputs defined (
+
+  
+
+      
+
