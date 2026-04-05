@@ -29,7 +29,7 @@ Process of listing all the resources in an AWS account
 
     ./Script.sh ap-south-1 ec2 
   13. That's how the execution happened succesfully as per the requirement.
-  14. we can check everthing with the inputs defined (
+  14. we can check everthing with the inputs defined.
 
   
 
