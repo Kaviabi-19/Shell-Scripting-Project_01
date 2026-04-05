@@ -3,7 +3,7 @@
 
 ###############################################################################
 # Author: Kavipriyabai
-# Version: v0.0.1
+# Version: v0.0.2
 
 # Script to automate the process of listing all the resources in an AWS account
 #
